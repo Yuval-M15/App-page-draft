@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600&display=swap');
+
+:root {
+  font-family: 'Fredoka';
+  font-weight: 300;}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.HeaderPhotos {display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+              padding: 0px 16px;
+              gap: 32px;
+              }
+
+.HeaderPhotos svg {background-color: #ffffff;
+                   border-radius: 8px;
+                   
+                  }
+
+.HeaderPhotos svg:hover {background-color:#d99787; 
+                                                 
+                        }
+
+
+.TextWraper {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+          }
+
+.pref {width: 100%;
+       display: flex;
+       font-size: 2.0rem;
+       padding: 10px;
+       align-items: center;
+       justify-content: center;
+       }
+
+.pref p {padding: 10px;
+         margin: 10px;
+         background-color: #C85537;
+         border-radius: 8px; 
+         align-items: center;
+                 
+        }
+
+.pref p:hover {background-color: #b1553e;
+               transform: scale(1.08);
+               color: white;
+               font-weight: 400;
+  
+}
+
+/* 
+TO DO
+
+1. hover - done V
+
+2. fix: line spaces
+        responsiveness
+     
+3. versions:
+   a. bootsrap
+   b. hebrew
+*/
